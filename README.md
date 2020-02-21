@@ -19,7 +19,7 @@ A Keras implementation of YOLOv3 (Tensorflow backend)，参考：https://github.
 坑：读入图片时会报错没有该图片，因为部分图片扩展名为JPG，需提前检测文件是否存在，不存在则将扩展名改为JPG  
 
 ## 使用
-1. 使用训练好的权重trained_weights_stage_1.h5
+1. 使用训练好的权重trained_weights_stage_1.h5,百度云https://pan.baidu.com/s/1naqCQHYTbT2RMOgxxBwong 密码:q1a4
 2. 运行检查部分
 ```
 python yolo_video.py [OPTIONS...] --image, for image detection mode, OR
